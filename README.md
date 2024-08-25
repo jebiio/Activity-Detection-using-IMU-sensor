@@ -1,4 +1,16 @@
 # Activity-Detection-using-IMU-sensor
+## 환경설정
+```bash
+sudo apt install python3-venv
+cd ~/projects
+python3 -m venv ENV_NAME
+source ENV_NAME/bin/activate
+
+pip install tensorrt matplotlib numpy pandas seaborn scipy sklearn keras tensorflow
+
+...
+deactivate
+```
 
 <img src="pics/2.jpg">
 
